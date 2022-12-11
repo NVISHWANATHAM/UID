@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+    <title>Cyber Nation | Register Now</title>
+    <link rel="stylesheet" href="CN.css">
+</head>
+<body style="background: url(CN_back.jpg);background-size: 100%;background-repeat: no-repeat;">    
+    <div id="container_1">
+        <h1 id="title"><font face="Calibri">
+        Cyber Nation Registration Form
+        </font>
+      </h1>
+      </div>
+      <div id="container_2">
+        <form method="post">
+          <label for="fname-label">Firstname:</label>
+            <input type="text" id="fname-label" name="fname" class="form" required placeholder="Enter your first name"><br>
+          <label for="lname-label">Lastname:</label>
+            <input type="text" id="lname-label" name="lname" class="form" required placeholder="Enter your last name"><br>
+          <label for="email-label">Email-ID:</label>
+            <input type="email" id="email-label" name="email" class="form" required placeholder="Enter your email"><br>
+          <label for="number-label">Age:</label>
+            <input type="number" id="number-label" name="number" class="form" placeholder="Enter your Age" min=16 max=80 required><br>
+          <label for="mobile_no-label">Mobile No.:</label>
+            <input type="text" id="mobile_no-label" pattern="[0-9]{10}" name="mobile_no" class="form" placeholder="Enter your number" required><br>       
+          <label for="city">City/Town:</label>
+            <input type="text" id="city" name="city" class="form" required placeholder="Enter your city"><br>
+          <label for="State">State:</label>
+          <input type="text" id="State" name="State" class="form" required placeholder="Enter your State"><br>
+          Country:
+          <select id="dropdown" name="country" required>
+            <option disabled selected value>
+              Select your Country
+            </option>
+            <option>
+            India
+            </option>
+            <option>
+            USA
+            </option>
+            <option>
+            Russia
+            </option>
+            <option>
+            UAE
+            </option>
+            <option>
+            UK
+            </option>
+            <option>
+            Japan
+            </option>
+            <option>
+            France
+            </option>
+            <option>
+            China
+            </option>
+          </select><br><br>
+          Gender:
+          <label>
+            <input type="radio" name="genre" value="Male">Male
+          </label>
+          <label>
+            <input type="radio" name="genre" value="Female">Female
+          </label>
+          <label>
+            <input type="radio" name="genre" value="Other">other
+          </label><br></br>
+          <label for="birthday">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday"><br></br>
+          <label id="carrer">Identity:</label>
+          <select id="dropdown" name="role" required>
+            <option disabled selected value>
+              Select your Identity
+            </option>
+            <option>
+            students
+            </option>
+            <option>
+            Research Scholors/Faculty members
+            </option>
+            <option>
+            Industry/others
+            </option>
+          </select><br><br>
+          Select events you want to attend:<br>
+          <label>
+            <input type="checkbox" name="mode" value="conclave">Cyber Conclave      
+          </label><br>
+          <label>  
+            <input type="checkbox" name="mode" value="imeet">Cyber Industry Meet        
+          </label><br>
+          <label>
+            <input type="checkbox" name="mode" value="abyaan">Cyber Abyaan 
+          </label><br>
+          <label>
+            <input type="checkbox" name="mode" value="Fest">Cyber Tech Fest 
+          </label><br>
+          <label for="comments"><p>Any comments or suggestions?</p></label>
+            <textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+          <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
