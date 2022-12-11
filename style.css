@@ -1,0 +1,21 @@
+     h3{
+		 font-family:'Courier New', Courier, monospace;
+	   }
+	   body{
+		   background: linear-gradient(#c1cdcd,#e3e8e6);
+		   height: 750px;
+		   font-family:'Courier New', Courier, monospace;
+	   }
+	  
+	  div.main{
+			      background:linear-gradient(rgb(239, 159, 175),rgb(242, 242, 242));
+				  border-radius:10px;
+				  padding: 10px 200px 20px 40px;
+				  margin: 250px;
+				  position:absolute;
+				  top:10px;
+				  left:230px;
+			  }
+	  .mai{
+		  margin-left:120px;
+	  }
